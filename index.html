@@ -1,0 +1,132 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- DO NOT CHANGE THE HTML, SKIP OVER THE THE CSS -->
+<header>
+    <h1>Intermediate CSS</h1>
+</header>
+<nav>
+    <h2>Main Navigation</h2>
+    <ul>
+        <li><a href="#fonts">Fonts</a></li>
+        <li><a href="#shapes">Shapes</a></li>
+        <li><a href="#svg">SVG</a></li>
+        <li><a href="#clipping">Clipping</a></li>
+        <li><a href="#masking">Masking</a></li>
+        <li><a href="#dimming">Dimming</a></li>
+        <li><a href="#blurring">Blurring</a></li>
+    </ul>
+</nav>
+<main>
+    <section id="fonts">
+        <h2>Fonts</h2>
+        <p>Using <a href="https://fonts.google.com/">Google Fonts</a>, change the heading and paragraph font in this
+            section. You will get practice using typography that is more dynamic than standard web safe fonts using <a
+                href="https://fonts.google.com/">Google Fonts</a> as well as choosing font pairs.
+    </section>
+    <section id="shapes">
+        <h2>Shapes</h2>
+        <section>
+            <h3>Square</h3>
+            <div id="square"></div>
+        </section>
+        <section>
+            <h3>Circle</h3>
+            <div id="circle"></div>
+        </section>
+        <section>
+            <h3>Oval</h3>
+            <div id="oval"></div>
+        </section>
+        <section>
+            <h3>Diamond</h3>
+            <div id="diamond"></div>
+        </section>
+        <section>
+            <h3>Cone</h3>
+            <div id="cone"></div>
+        </section>
+        <section>
+            <h3>Baseball Base</h3>
+            <div id="base"></div>
+        </section>
+    </section>
+    <section id="svg">
+        <h2>SVG</h2>
+        <section>
+            <h3>.svg File</h3>
+            <img src="https://assets.codepen.io/780423/pitchfork.svg"
+                alt="svg file of a transparent pitchfork on a black background" />
+        </section>
+        <section>
+            <h3>SVG Code</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" style="enable-background:new 0 0 300 200"
+                xml:space="preserve">
+                <path
+                    d="M0 0v200h231.4l-70-70-.1.1-28.8-29-17.5 5.3v4.5S76 78 42.6 71.9c0 0 18-6.4 37.4-2.1 0 0-7.4 2.6-9.3 3.9 0 0 10.1 1.8 40.1 21.8l10.2-2.7.7-2.8S94.6 59.3 71.6 38L70 47.7S59.5 35 50.3 9.6c0 0 17.1 4.1 38.4 20l-10.4 1.1 51.4 49.8 3.3.4 3.5-10.3s-17-25.4-22.2-40.5c0 0-3.4 6.9-3.4 9.2 0 0-4.3-18.8 1.8-37.4 0 0 1.9 24.4 39.2 72.2h-4.5l-5.8 17 26.6 26.8.1-.1 72.7 72.7-9.6 9.6H300V0H0z" />
+            </svg>
+        </section>
+    </section>
+    <section id="clipping">
+        <h2>Clipping</h2>
+        <section>
+            <h3>Circle Clipping</h3>
+            <img id="circle-clip"
+                src="https://images.unsplash.com/photo-1641463789150-9d8a474ed1b7?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MjI4MjE1NQ&ixlib=rb-1.2.1&q=85"
+                alt="female photographer standing on railroad tracks with camera shooting a photo straight at the viewer, she is in an outdoor, colorful, space">
+        </section>
+        <section>
+            <h3>Polygon Clipping</h3>
+
+            <img id="poly-clip"
+                src="https://images.unsplash.com/photo-1641463789150-9d8a474ed1b7?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MjI4MjE1NQ&ixlib=rb-1.2.1&q=85"
+                alt="female photographer standing on railroad tracks with camera shooting a photo straight at the viewer, she is in an outdoor, colorful, space">
+        </section>
+    </section>
+    <section id="masking">
+        <h2>Masking</h2>
+        <section>
+            <h3>SVG Mask</h3>
+            <img id="svg-mask"
+                src="https://images.unsplash.com/photo-1549981832-2ba2ee913334?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MjI4MjkzNA&ixlib=rb-1.2.1&q=85"
+                alt="female photographer in a white room with a stand of small white lights hanging above, the camera is shooting straight of the viewer">
+            <img id="circle-clip1"
+                src="https://images.unsplash.com/photo-1641463789150-9d8a474ed1b7?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MjI4MjE1NQ&ixlib=rb-1.2.1&q=85"
+                alt="female photographer standing on railroad tracks with camera shooting a photo straight at the viewer, she is in an outdoor, colorful, space">
+        </section>
+        <section>
+            <h3>Gradient Mask</h3>
+            <img id="gradient-mask"
+                src="https://images.unsplash.com/photo-1549981832-2ba2ee913334?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MjI4MjkzNA&ixlib=rb-1.2.1&q=85"
+                alt="female photographer in a white room with a stand of small white lights hanging above, the camera is shooting straight of the viewer">
+            <img id="poly-clip1"
+                src="https://images.unsplash.com/photo-1641463789150-9d8a474ed1b7?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MjI4MjE1NQ&ixlib=rb-1.2.1&q=85"
+                alt="female photographer standing on railroad tracks with camera shooting a photo straight at the viewer, she is in an outdoor, colorful, space">
+        </section>
+    </section>
+    <section id="dimming">
+        <h2>Dimming</h2>
+        <figure>
+            <img src="https://images.unsplash.com/photo-1534131707746-25d604851a1f?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MjI4NTY4Ng&ixlib=rb-1.2.1&q=85"
+                alt="from the viewer's POV there is a camera on tripod in the foreground aiming to shoot out at a sunset">
+            <figcaption>Sunset photo shoot behind the scenes, 2022</figcaption>
+        </figure>
+        <figure>
+            <img src="https://images.unsplash.com/photo-1501898047706-55903296cd09?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MjI4NzgzNw&ixlib=rb-1.2.1&q=85"
+                alt="from the viewer's POV there is a camera on tripod in the foreground aiming to shoot out at a sunset">
+            <figcaption>Sunset, 2022</figcaption>
+        </figure>
+    </section>
+    <section id="blur">
+        <h2>Blurring</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis. Eget magna
+            fermentum iaculis eu. Id aliquet risus feugiat in ante metus dictum at tempor. Netus et malesuada fames ac.
+            Rhoncus dolor purus non enim praesent elementum facilisis. Scelerisque eleifend donec pretium vulputate.
+            Cras sed felis eget velit aliquet sagittis id consectetur purus. Amet est placerat in egestas erat imperdiet
+            sed euismod. Turpis egestas pretium aenean pharetra. Donec adipiscing tristique risus nec feugiat.</p>
+    </section>
+</main>
+<footer>
+    <small>Copyright 2022</small>
+</footer>
